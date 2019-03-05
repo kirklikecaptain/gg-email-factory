@@ -16,9 +16,12 @@
 // 1. Global
 // ---------
 
+// Import open sans regular and "bold" / 300 and 700
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,700");
+
 $primary-color: #00A3DF;
-$secondary-color: #777777;
-$success-color: #3adb76;
+$secondary-color: #354E5C;
+$success-color: #28c060;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -34,7 +37,7 @@ $body-background: $light-gray;
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
-$global-radius: 3px;
+$global-radius: 4px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
 
@@ -55,10 +58,10 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
+$body-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
-$global-line-height: 1.3;
+$global-line-height: 1.6;
 $global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
@@ -76,7 +79,7 @@ $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
 $lead-line-height: 1.6;
 $text-padding: 10px;
-$subheader-lineheight: 1.4;
+$subheader-lineheight: 1.2;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
@@ -96,9 +99,9 @@ $stat-font-size: 40px;
 
 $button-padding: (
   tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  small: 5px 16px 5px 16px,
+  default: 8px 24px 8px 24px,
+  large: 10px 30px 10px 30px,
 );
 $button-font-size: (
   tiny: 10px,
@@ -108,7 +111,7 @@ $button-font-size: (
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
-$button-font-weight: bold;
+$button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
 $button-border: 2px solid $button-background;
